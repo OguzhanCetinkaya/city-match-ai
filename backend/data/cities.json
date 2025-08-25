@@ -1,0 +1,109 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "cities": [
+        "San Francisco",
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Boston",
+        "Seattle",
+        "Austin",
+        "Miami",
+        "Portland",
+        "Denver"
+      ]
+    },
+    {
+      "name": "Turkey",
+      "cities": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Antalya",
+        "Bursa"
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "cities": [
+        "London",
+        "Manchester",
+        "Edinburgh",
+        "Birmingham",
+        "Bristol"
+      ]
+    },
+    {
+      "name": "France",
+      "cities": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Nice",
+        "Bordeaux"
+      ]
+    },
+    {
+      "name": "Germany",
+      "cities": [
+        "Berlin",
+        "Munich",
+        "Hamburg",
+        "Frankfurt",
+        "Cologne"
+      ]
+    },
+    {
+      "name": "Japan",
+      "cities": [
+        "Tokyo",
+        "Osaka",
+        "Kyoto",
+        "Yokohama",
+        "Nagoya"
+      ]
+    },
+    {
+      "name": "Australia",
+      "cities": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Perth",
+        "Adelaide"
+      ]
+    },
+    {
+      "name": "Canada",
+      "cities": [
+        "Toronto",
+        "Vancouver",
+        "Montreal",
+        "Calgary",
+        "Ottawa"
+      ]
+    },
+    {
+      "name": "Spain",
+      "cities": [
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Seville",
+        "Bilbao"
+      ]
+    },
+    {
+      "name": "Italy",
+      "cities": [
+        "Rome",
+        "Milan",
+        "Florence",
+        "Venice",
+        "Naples"
+      ]
+    }
+  ]
+}
