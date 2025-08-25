@@ -27,6 +27,7 @@ yarn-error.log*
 *.swo
 *~
 .DS_Store
+.claude/
 
 # Environment variables
 .env
