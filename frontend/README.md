@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CityMatch AI - Frontend
 
-## Getting Started
+This is the Next.js frontend for the CityMatch AI application.
 
-First, run the development server:
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Next.js App Router pages
+- `components/` - React components
+  - `CitySelector.tsx` - Dependent dropdown menus
+  - `NeighborhoodCard.tsx` - Individual neighborhood display
+  - `MatchDisplay.tsx` - Carousel for viewing matches
+- `types/` - TypeScript type definitions
+- `lib/` - Utility functions
 
-## Learn More
+## 🎨 Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Real-time Streaming** - Watch as AI finds neighborhood matches
+- **Responsive Design** - Works on desktop and mobile
+- **Beautiful Animations** - Smooth transitions with Framer Motion
+- **Type Safety** - Full TypeScript implementation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The frontend expects the backend API to be running on `http://localhost:8000`.
 
-## Deploy on Vercel
+To change this, update the API URLs in `app/page.tsx`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+
+## 🎓 For Students
+
+Explore the code to learn:
+- How to build modern React applications
+- TypeScript best practices
+- Streaming data handling
+- Component composition
+- Responsive design patterns
+
+See the main [README](../README.md) for full project documentation.
